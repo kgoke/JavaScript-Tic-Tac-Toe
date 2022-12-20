@@ -1,0 +1,67 @@
+* {
+    overflow: hidden;
+}
+
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-color: black;
+  height: 100vh;
+}
+
+.game--container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 360px;
+  margin: 60px auto;
+}
+
+.cell {
+  font-family:'Courier New', Courier, monospace;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #000000;
+  border: 10px solid #48db23;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+  text-align: center;
+  color:#48db23;
+}
+
+.game--title {
+    display: flex;
+    justify-content: center;
+    color:#48db23;
+    font-size: xx-large;
+}
+
+.game--status {
+    display: flex;
+    justify-content: center;
+    color:#48db23;
+    font-size: xx-large;
+}
+
+.button--container {
+    display:flex;
+    justify-content: center;
+}
+
+.game--restart {
+    background:#48db23;
+    height: 50px;
+    width: auto;
+    font-size: xx-large;
+    color:black;
+}
+
+.game--title {
+    padding: 10px;
+}
+
+.score--board {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color:#48db23;
+}
